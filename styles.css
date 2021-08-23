@@ -1,0 +1,201 @@
+
+html{
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+
+.order-flex-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.image-container{
+  margin-bottom: -5px;
+}
+
+.icon{
+  margin: 15px 20px 0 0;
+}
+
+.annual-plan{
+  font-weight: 900;
+}
+
+.cancel-button{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.attribution{
+  font-size: 12px;
+  line-height: 0.8;
+  margin-top: 50px;
+}
+
+.attribution a{
+  color: #3856a1;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+
+@media only screen and (min-width: 701px){
+  .top-image{
+    border-radius: 20px 20px 0 0;
+  }
+
+  .contents-container{
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 30px 30px #b8c0d6;
+    margin: 0 auto;
+    padding: 30px 50px 50px;
+    width: 350px;
+  }
+
+  h1{
+    font-weight: 900;
+  }
+
+  .description{
+    font-weight: 500px;
+    line-height: 2;
+  }
+
+  .plan-flex-container{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+  }
+
+  .plan-detail{
+    margin: 5px 80px 0 0;
+    line-height: 0.8;
+  }
+
+  .change-button-container{
+    margin-top: 30px;
+  }
+
+  .change-button{
+    color: #3b00a8;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+
+  .payment-button{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 30px 30px #c6c5eb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    height: 60px;
+    margin-bottom: 40px;
+    width: 350px;
+    transition: 0.3s;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+  .top-image{
+    border-radius: 20px 20px 0 0;
+    width: 330px;
+  }
+
+  .contents-container{
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 30px 30px #b8c0d6;
+    margin: 0 auto;
+    padding: 20px 25px 30px;
+    width: 280px;
+  }
+
+  h1{
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .description{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 2;
+  }
+
+  .plan-flex-container{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+  }
+
+  .plan-detail{
+    margin: 5px 30px 0 0;
+    line-height: 0.8;
+  }
+
+  .change-button-container{
+    margin-top: 25px;
+  }
+
+  .change-button{
+    color: #3b00a8;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+
+  .payment-button{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 30px 30px #c6c5eb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    height: 50px;
+    margin-bottom: 40px;
+    width: 270px;
+    transition: 0.3s;
+  }
+}
+
+.change-button:hover{
+  color: #867bed;
+  text-decoration: none;
+}
+
+.payment-button:hover{
+  background-color: #867bed;
+}
+
+.cancel-button:hover{
+  color: #141e38;
+}
+
+.attribution a:hover{
+  color: hsl(225, 100%, 98%);
+}
